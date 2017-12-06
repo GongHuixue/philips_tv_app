@@ -1,0 +1,48 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.droidtv.tvserver"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+	<uses-permission android:name="android.permission.BROADCAST_STICKY" />
+	<uses-permission android:name="org.droidtv.tv.permission.USER_SETTING_ACCESS"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+	<uses-permission android:name="android.permission.USB_PERMISSION" />
+	<uses-permission android:name="com.android.providers.tv.permission.WRITE_EPG_DATA"/>
+	<uses-permission android:name="com.android.providers.tv.permission.READ_EPG_DATA"/>
+	<uses-permission android:name="com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA" />
+	<uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />	
+	<uses-permission android:name="org.droidtv.tv.permission.TPV_APP_ACCESS"   />
+
+  <uses-permission 
+    android:name="android.permission.ACCESS_WIFI_STATE" 
+  />
+
+  <uses-permission 
+    android:name="android.permission.ACCESS_NETWORK_STATE"
+  />
+
+  <uses-permission 
+    android:name="android.permission.INTERNET"
+  />
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+		android:allowBackup="false"
+		android:persistent="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >        
+        
+        <service android:name="org.droidtv.tvserver.TvServerService"
+                 android:exported="true" >
+             <intent-filter>
+             <action android:name="org.droidtv.tvserver.TvServerService" />
+			<category android:name="android.intent.category.DEFAULT"/> 			 			 
+             </intent-filter>
+        </service>
+    </application>
+
+</manifest>

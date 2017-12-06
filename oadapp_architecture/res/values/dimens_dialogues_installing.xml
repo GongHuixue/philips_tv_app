@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Fri Oct 31 2014 11:03:27 GMT+0530-->
+<resources>
+<!--Layout_Dialogues_installing_v2.4.psd-->
+<dimen name="dialogues_installing_container_height">200dp</dimen>
+
+<dimen name="dialogues_installing_container_width">644dp</dimen>
+
+<dimen name="dialogues_installing_container_x1">158dp</dimen>
+
+<dimen name="dialogues_installing_container_y1">170dp</dimen>
+
+<dimen name="dialogues_installing_container_x2">802dp</dimen>
+
+<dimen name="dialogues_installing_container_y2">370dp</dimen>
+
+<dimen name="dialogues_installing_padding_top_height">22dp</dimen>
+
+<dimen name="dialogues_installing_padding_top_width">22dp</dimen>
+
+<dimen name="dialogues_installing_padding_top_x1">158dp</dimen>
+
+<dimen name="dialogues_installing_padding_top_y1">170dp</dimen>
+
+<dimen name="dialogues_installing_padding_top_x2">180dp</dimen>
+
+<dimen name="dialogues_installing_padding_top_y2">192dp</dimen>
+
+<dimen name="dialogues_installing_padding_left_height">30dp</dimen>
+
+<dimen name="dialogues_installing_padding_left_width">30dp</dimen>
+
+<dimen name="dialogues_installing_padding_left_x1">158dp</dimen>
+
+<dimen name="dialogues_installing_padding_left_y1">170dp</dimen>
+
+<dimen name="dialogues_installing_padding_left_x2">188dp</dimen>
+
+<dimen name="dialogues_installing_padding_left_y2">200dp</dimen>
+
+<dimen name="dialogues_installing_padding_bottom_height">20dp</dimen>
+
+<dimen name="dialogues_installing_padding_bottom_width">20dp</dimen>
+
+<dimen name="dialogues_installing_padding_bottom_x1">158dp</dimen>
+
+<dimen name="dialogues_installing_padding_bottom_y1">350dp</dimen>
+
+<dimen name="dialogues_installing_padding_bottom_x2">178dp</dimen>
+
+<dimen name="dialogues_installing_padding_bottom_y2">370dp</dimen>
+
+<dimen name="dialogues_installing_padding_right_height">30dp</dimen>
+
+<dimen name="dialogues_installing_padding_right_width">30dp</dimen>
+
+<dimen name="dialogues_installing_padding_right_x1">772dp</dimen>
+
+<dimen name="dialogues_installing_padding_right_y1">170dp</dimen>
+
+<dimen name="dialogues_installing_padding_right_x2">802dp</dimen>
+
+<dimen name="dialogues_installing_padding_right_y2">200dp</dimen>
+
+<dimen name="dialogues_installing_header_title_text_height">22dp</dimen>
+
+<dimen name="dialogues_installing_header_title_text_width">407.5dp</dimen>
+
+<dimen name="dialogues_installing_header_title_text_x1">188dp</dimen>
+
+<dimen name="dialogues_installing_header_title_text_y1">191.5dp</dimen>
+
+<dimen name="dialogues_installing_header_title_text_x2">595.5dp</dimen>
+
+<dimen name="dialogues_installing_header_title_text_y2">213.5dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_height">1dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_width">644dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_x1">158dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_y1">230dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_x2">802dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_y2">231dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_padding_top_height">22dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_padding_top_width">22dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_padding_top_x1">158dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_padding_top_y1">208dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_padding_top_x2">180dp</dimen>
+
+<dimen name="dialogues_installing_header_divider_padding_top_y2">230dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_top_height">22dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_top_width">22dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_top_x1">188dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_top_y1">231dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_top_x2">210dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_top_y2">253dp</dimen>
+
+<dimen name="dialogues_installing_body_text_height">18.5dp</dimen>
+
+<dimen name="dialogues_installing_body_text_width">584dp</dimen>
+
+<dimen name="dialogues_installing_body_text_x1">188dp</dimen>
+
+<dimen name="dialogues_installing_body_text_y1">253dp</dimen>
+
+<dimen name="dialogues_installing_body_text_x2">772dp</dimen>
+
+<dimen name="dialogues_installing_body_text_y2">271.5dp</dimen>
+
+<dimen name="dialogues_installing_progress_bar_height">4dp</dimen>
+
+<dimen name="dialogues_installing_progress_bar_width">584dp</dimen>
+
+<dimen name="dialogues_installing_progress_bar_x1">188dp</dimen>
+
+<dimen name="dialogues_installing_progress_bar_y1">279.5dp</dimen>
+
+<dimen name="dialogues_installing_progress_bar_x2">772dp</dimen>
+
+<dimen name="dialogues_installing_progress_bar_y2">283.5dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_bottom_height">30dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_bottom_width">30dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_bottom_x1">188dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_bottom_y1">283.5dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_bottom_x2">218dp</dimen>
+
+<dimen name="dialogues_installing_content_padding_bottom_y2">313.5dp</dimen>
+
+<dimen name="dialogues_installing_button_cancel_height">36dp</dimen>
+
+<dimen name="dialogues_installing_button_cancel_width">160dp</dimen>
+
+<dimen name="dialogues_installing_button_cancel_x1">612dp</dimen>
+
+<dimen name="dialogues_installing_button_cancel_y1">314dp</dimen>
+
+<dimen name="dialogues_installing_button_cancel_x2">772dp</dimen>
+
+<dimen name="dialogues_installing_button_cancel_y2">350dp</dimen>
+
+<dimen name="buttons_background_height">36dp</dimen>
+
+<dimen name="buttons_background_width">160dp</dimen>
+</resources>

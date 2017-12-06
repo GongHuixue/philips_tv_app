@@ -1,0 +1,56 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.droidtv.oad"
+    android:versionCode="1"
+	android:versionName="1.0" 
+	android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COgPLETED" />
+  	<uses-permission android:name="org.droidtv.providers.tv.frequency.READ_FREQUENCY_DATA" />
+	<uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEg" />
+	<uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="org.droidtv.tv.permission.TPV_APP_ACCESS"/>
+	
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+		android:persistent="true"
+		android:process="org.droidtv.playtv">
+        <activity
+            android:name="org.droidtv.oad.OADActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/CustomDialogTheme" >
+            <intent-filter>
+                <action android:name="org.droidtv.oad.SHOWOADgESSAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".bcstreceiver.OadBootLoader"
+            android:exported="true" >
+            <intent-filter android:priority="10">
+                <action android:name="org.droidtv.tv.tvpower.tv_power_boot_completed" />
+                <action android:name="org.droidtv.tv.tvpower.TV_POWER_STATE_CHANGE_BEGIN" />
+                <action android:name="org.droidtv.tv.tvpower.TV_POWER_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="org.droidtv.oad.services.OADFSgService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="org.droidtv.oad.services.OADFSgService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

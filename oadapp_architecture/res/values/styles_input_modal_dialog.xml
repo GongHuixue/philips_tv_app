@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Tue Nov 26 2013 21:59:43 GMT+0530-->
+<resources>
+<style name="input_modal_dialog_01_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_01_right_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_01_description_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/bnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_01_right_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_02_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_02_left_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_02_right_button_default_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_03_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_03_right_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_03_description_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/bnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_03_left_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_03_right_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_07_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_header_info_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_storage_info_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_progress_bar_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_list01_row01_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_list02_row01_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_list01_row02_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_list02_row02_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_left_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_07_right_button_default_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_07_01_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_01_list01_row01_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_01_list02_row01_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_01_list01_row02_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_01_list02_row02_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_07_01_left_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_07_01_right_button_default_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_08_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_08_right_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_08_description_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/bnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_08_right_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_09_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_09_pinentry_title01_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_09_pinentry_title02_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_09_clear_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_09_cancel_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_10_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_10_description_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/bnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_10_left_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_10_right_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+<style name="input_modal_dialog_11_header_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/hnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_11_progress_bar_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_11_string01_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/bnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_11_string02_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/bnr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="input_modal_dialog_11_right_button_normal_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lnr">
+	<item name="android:gravity">center</item>
+</style>
+</resources>

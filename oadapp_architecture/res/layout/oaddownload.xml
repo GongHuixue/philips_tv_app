@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/oaddownload"
+    android:layout_width="@dimen/dialogues_installing_container_width"
+    android:layout_height="@dimen/dialogues_installing_container_height"
+    android:background="#1D1F21"
+    android:paddingTop="18dp" >
+
+    <TextView
+        android:id="@+id/oadheader_text"
+        style="@style/dialogues_installing_header_title_text_style"
+        android:layout_width="@dimen/dialogues_installing_header_title_text_width"
+        android:layout_height="@dimen/dialogues_installing_header_title_text_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="22dp"
+        android:text="@org.droidtv.ui.strings:string/MAIN_TI_GENERIC_MESSAGE"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/oaddivider"
+        android:layout_width="@dimen/dialogues_installing_header_divider_width"
+        android:layout_height="@dimen/dialogues_installing_header_divider_height"
+        android:layout_below="@+id/oadheader_text"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:drawableLeft="@drawable/modal_dialog_divider_drawable"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/oaddownload_text"
+        style="@style/dialogues_installing_body_text_style"
+        android:layout_width="@dimen/dialogues_installing_body_text_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oaddivider"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="22dp"
+        android:textAppearance="@style/dialogues_installing_body_text_style" />
+<!-- @dimen/dialogues_installing_body_text_height -->
+    <ProgressBar
+        android:id="@+id/oaddownload_progressBar"
+        style="@org.droidtv.ui.tvwidget2k15:style/ProgressBarStyleDefault.Wizard"
+        android:layout_width="@dimen/dialogues_installing_progress_bar_width"
+        android:layout_height="@dimen/dialogues_installing_progress_bar_height"
+        android:layout_below="@+id/oaddownload_text"
+        android:layout_marginTop="6dp"
+        android:focusable="false"
+        android:paddingLeft="22dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/oaddownloadbtn_stop"
+        style="@style/button_pre_focused_style"
+        android:layout_width="@dimen/dialogues_installing_button_cancel_width"
+        android:layout_height="@dimen/dialogues_installing_button_cancel_height"
+        android:layout_marginLeft="454dp"
+        android:layout_marginTop="130dp"
+        android:text="@org.droidtv.ui.strings:string/MAIN_BUTTON_ABORT" />
+
+</RelativeLayout>

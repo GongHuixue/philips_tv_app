@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <item android:state_focused="true" android:state_enabled="false" >
+        <shape >
+            <stroke android:width="1dp" android:color="#FF76D7D6" />
+            <corners android:radius="48dp" />
+            <size android:height="@dimen/buttons_background_height" android:width="@dimen/buttons_background_width" />
+            <solid android:color="#FF76D7D6" />
+        </shape>
+    </item>
+     <item android:state_focused="true" android:state_enabled="true" >
+        <shape >
+            <stroke android:width="1dp" android:color="#FF76D7D6" />
+            <corners android:radius="48dp" />
+            <size android:height="@dimen/buttons_background_height" android:width="@dimen/buttons_background_width" />
+            <solid android:color="#FF76D7D6" />
+        </shape>
+    </item>
+    <item android:state_focused="false" android:state_enabled="false" >
+        <shape >
+            <stroke android:width="1dp" android:color="#733C3C3C" />
+            <corners android:radius="48dp" />
+            <size android:height="@dimen/buttons_background_height" android:width="@dimen/buttons_background_width" />
+            <solid android:color="#733C3C3C" />
+        </shape>
+    </item>
+    <item android:state_focused="false" android:state_enabled="true">
+        <shape >
+            <stroke android:width="1dp" android:color="#FFFFFFFF" />
+            <corners android:radius="48dp" />
+            <size android:height="@dimen/buttons_background_height" android:width="@dimen/buttons_background_width" />
+            <solid android:color="#FFFFFFFF" />
+        </shape>
+    </item>
+     
+
+</selector>

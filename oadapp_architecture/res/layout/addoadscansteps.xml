@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <org.droidtv.oad.oadscan.AddScanTeaserScreen
+        android:id="@+id/TeaserScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="@org.droidtv.ui.strings:string/MAIN_TI_OAD_SCAN_CONFIRM" >
+    </org.droidtv.oad.oadscan.AddScanTeaserScreen>
+
+    <org.droidtv.oad.oadscan.SearchUpdatesScreen
+        android:id="@+id/SearchUpdates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="@org.droidtv.ui.strings:string/MAIN_VB_OAD_SCAN_SEARCHING" >
+    </org.droidtv.oad.oadscan.SearchUpdatesScreen>
+
+    <org.droidtv.oad.oadscan.NoUpdateFoundScreen
+        android:id="@+id/NoUpdates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="@org.droidtv.ui.strings:string/MAIN_VB_OAD_SCAN_NO_UPDATE" >
+    </org.droidtv.oad.oadscan.NoUpdateFoundScreen>
+    
+    <org.droidtv.oad.oadscan.OADUpdateFoundScreen
+        android:id="@+id/UpdateFound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="@org.droidtv.ui.strings:string/MAIN_ANNOUNCEMENT" >
+    </org.droidtv.oad.oadscan.OADUpdateFoundScreen>
+
+</LinearLayout>

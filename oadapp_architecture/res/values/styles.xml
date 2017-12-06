@@ -1,0 +1,63 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+	
+    <style name="CustomDialogTheme" parent="android:Theme.Dialog">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">false</item>
+    
+	</style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- Start:   Modal dialog styles -->
+    <style name="modal_dialog_label_text_style">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="modal_dialog_heading" parent="modal_dialog_label_text_style">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="modal_dialog_sub_heading" parent="modal_dialog_label_text_style">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#B3FFFFFF</item>
+    </style>
+
+    <style name="modal_dialog_status" parent="modal_dialog_label_text_style">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="modal_dialog_content_text" parent="modal_dialog_label_text_style">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#B3FFFFFF</item>
+    </style>
+
+    <style name="dialogues_update_selection_header_progress_bar_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lsl">
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="button_pre_focused_style" parent="@org.droidtv.ui.tvwidget2k15:style/button_style">
+        <item name="android:background">@color/button_background_pre_focus_color_selector</item>
+        <item name="android:textColor">@color/button_prefocus_text_color_selector</item>
+    </style>
+
+</resources>

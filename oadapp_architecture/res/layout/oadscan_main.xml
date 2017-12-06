@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.droidtv.ui.tvwidget2k15.wizardframework.WizardScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/wizardScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+</org.droidtv.ui.tvwidget2k15.wizardframework.WizardScreen>

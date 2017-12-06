@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Fri Oct 31 2014 11:03:27 GMT+0530-->
+<resources>
+<style name="dialogues_installing_header_title_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/llr">
+	<item name="android:gravity">left</item>
+</style>
+<style name="dialogues_installing_body_text_style" parent="@org.droidtv.ui.tvwidget2k15:style/lsl">
+	<item name="android:gravity">left</item>
+</style>
+</resources>
